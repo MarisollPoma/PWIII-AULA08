@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import {FormsModule} from '@angular/forms';
+import { GgIfComponent } from './gg-if/gg-if.component';
+import { NgIfComponent } from './ng-if/ng-if.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PropertyBindingComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    GgIfComponent,
+    NgIfComponent
   ],
   imports: [
     BrowserModule,
