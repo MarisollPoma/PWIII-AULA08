@@ -9,6 +9,7 @@ import {FormsModule} from '@angular/forms';
 
 import { NgIfComponent } from './ng-if/ng-if.component';
 import { NgSwitchCaseComponent } from './ng-switch-case/ng-switch-case.component';
+import { NgForComponent } from './ng-for/ng-for.component';
 
 
 @NgModule({
@@ -19,7 +20,9 @@ import { NgSwitchCaseComponent } from './ng-switch-case/ng-switch-case.component
  
     NgIfComponent,
  
-    NgSwitchCaseComponent
+    NgSwitchCaseComponent,
+ 
+    NgForComponent
   ],
   imports: [
     BrowserModule,
