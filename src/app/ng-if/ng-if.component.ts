@@ -20,7 +20,7 @@ export class NgIfComponent implements OnInit {
   }
 
   getValor() : boolean {
-    return this.exibeNome;
+        return this.exibeNome;
  
   }
 
